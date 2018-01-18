@@ -1,7 +1,8 @@
 //
 //The Follwing Class:
 //* on loadView() create WKWebView
-//* on viewDidLoad() set U
+//* on viewDidLoad() set https url loads the url
+//and allow the user swipe left and right
 //
 
 import UIKit
