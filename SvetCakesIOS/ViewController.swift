@@ -25,7 +25,7 @@ class ViewController: UIViewController, WKNavigationDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         //set the urls of the website
-        let url = URL(string: "https://bissextile-basket.000webhostapp.com")!
+        let url = URL(string: "https://bissextile-basket.000webhostapp.com/mobile.html")!
         //loads the url to webview
         webView.load(URLRequest(url: url))
         //alows option to swipe left and right
