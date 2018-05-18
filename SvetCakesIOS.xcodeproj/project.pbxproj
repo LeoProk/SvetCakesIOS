@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FA7477C3C3B7FD2DEB5EA05 /* Pods_SvetCakesIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B1F9C06B08D1DFF6220193 /* Pods_SvetCakesIOSUITests.framework */; };
+		A2964774050D741F70966C79 /* Pods_SvetCakesIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364B0704A412FAF8D9E1C0B2 /* Pods_SvetCakesIOSTests.framework */; };
+		BD5149AD3E9E8CE385872CF8 /* Pods_SvetCakesIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7670449B4747962BE0826ADB /* Pods_SvetCakesIOS.framework */; };
 		CE409A7B2000431000CEE342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE409A7A2000431000CEE342 /* AppDelegate.swift */; };
 		CE409A7D2000431000CEE342 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE409A7C2000431000CEE342 /* ViewController.swift */; };
 		CE409A802000431000CEE342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE409A7E2000431000CEE342 /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A5160AD4AB18EFBE0794F9E /* Pods-SvetCakesIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SvetCakesIOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SvetCakesIOSTests/Pods-SvetCakesIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2331AE0403D59BB80E9BBAF6 /* Pods-SvetCakesIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SvetCakesIOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SvetCakesIOS/Pods-SvetCakesIOS.release.xcconfig"; sourceTree = "<group>"; };
+		364B0704A412FAF8D9E1C0B2 /* Pods_SvetCakesIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SvetCakesIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC3C412438FB9415D7CF6E3 /* Pods-SvetCakesIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SvetCakesIOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SvetCakesIOSUITests/Pods-SvetCakesIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7670449B4747962BE0826ADB /* Pods_SvetCakesIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SvetCakesIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		795E2C0B767CC5CD95C895F5 /* Pods-SvetCakesIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SvetCakesIOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SvetCakesIOSUITests/Pods-SvetCakesIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		95B23B1843E058CB644D5795 /* Pods-SvetCakesIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SvetCakesIOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SvetCakesIOS/Pods-SvetCakesIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A73857873107EB6993BED070 /* Pods-SvetCakesIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SvetCakesIOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SvetCakesIOSTests/Pods-SvetCakesIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE409A772000431000CEE342 /* SvetCakesIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvetCakesIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE409A7A2000431000CEE342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE409A7C2000431000CEE342 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		CE409A962000431000CEE342 /* SvetCakesIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SvetCakesIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE409A9A2000431000CEE342 /* SvetCakesIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SvetCakesIOSUITests.swift; sourceTree = "<group>"; };
 		CE409A9C2000431000CEE342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B1F9C06B08D1DFF6220193 /* Pods_SvetCakesIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SvetCakesIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5149AD3E9E8CE385872CF8 /* Pods_SvetCakesIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2964774050D741F70966C79 /* Pods_SvetCakesIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA7477C3C3B7FD2DEB5EA05 /* Pods_SvetCakesIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00C0C0DA5EE5509EBAAC86DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7670449B4747962BE0826ADB /* Pods_SvetCakesIOS.framework */,
+				364B0704A412FAF8D9E1C0B2 /* Pods_SvetCakesIOSTests.framework */,
+				F2B1F9C06B08D1DFF6220193 /* Pods_SvetCakesIOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		072526FC33E311C4C939251C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95B23B1843E058CB644D5795 /* Pods-SvetCakesIOS.debug.xcconfig */,
+				2331AE0403D59BB80E9BBAF6 /* Pods-SvetCakesIOS.release.xcconfig */,
+				0A5160AD4AB18EFBE0794F9E /* Pods-SvetCakesIOSTests.debug.xcconfig */,
+				A73857873107EB6993BED070 /* Pods-SvetCakesIOSTests.release.xcconfig */,
+				795E2C0B767CC5CD95C895F5 /* Pods-SvetCakesIOSUITests.debug.xcconfig */,
+				3FC3C412438FB9415D7CF6E3 /* Pods-SvetCakesIOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE409A6E2000431000CEE342 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				CE409A8E2000431000CEE342 /* SvetCakesIOSTests */,
 				CE409A992000431000CEE342 /* SvetCakesIOSUITests */,
 				CE409A782000431000CEE342 /* Products */,
+				072526FC33E311C4C939251C /* Pods */,
+				00C0C0DA5EE5509EBAAC86DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE409A9F2000431000CEE342 /* Build configuration list for PBXNativeTarget "SvetCakesIOS" */;
 			buildPhases = (
+				662C6FEC16FA58AE7F355A9C /* [CP] Check Pods Manifest.lock */,
 				CE409A732000431000CEE342 /* Sources */,
 				CE409A742000431000CEE342 /* Frameworks */,
 				CE409A752000431000CEE342 /* Resources */,
+				D5F6C8261340D2DEB516F15C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE409AA22000431000CEE342 /* Build configuration list for PBXNativeTarget "SvetCakesIOSTests" */;
 			buildPhases = (
+				56C4BF985A83198A9E18C675 /* [CP] Check Pods Manifest.lock */,
 				CE409A872000431000CEE342 /* Sources */,
 				CE409A882000431000CEE342 /* Frameworks */,
 				CE409A892000431000CEE342 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE409AA52000431000CEE342 /* Build configuration list for PBXNativeTarget "SvetCakesIOSUITests" */;
 			buildPhases = (
+				498DF2014664F863031DF15B /* [CP] Check Pods Manifest.lock */,
 				CE409A922000431000CEE342 /* Sources */,
 				CE409A932000431000CEE342 /* Frameworks */,
 				CE409A942000431000CEE342 /* Resources */,
@@ -253,6 +297,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		498DF2014664F863031DF15B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SvetCakesIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56C4BF985A83198A9E18C675 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SvetCakesIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		662C6FEC16FA58AE7F355A9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SvetCakesIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F6C8261340D2DEB516F15C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SvetCakesIOS/Pods-SvetCakesIOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SvetCakesIOS/Pods-SvetCakesIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE409A732000431000CEE342 /* Sources */ = {
@@ -424,6 +545,7 @@
 		};
 		CE409AA02000431000CEE342 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B23B1843E058CB644D5795 /* Pods-SvetCakesIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +560,7 @@
 		};
 		CE409AA12000431000CEE342 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2331AE0403D59BB80E9BBAF6 /* Pods-SvetCakesIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +575,7 @@
 		};
 		CE409AA32000431000CEE342 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5160AD4AB18EFBE0794F9E /* Pods-SvetCakesIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +592,7 @@
 		};
 		CE409AA42000431000CEE342 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A73857873107EB6993BED070 /* Pods-SvetCakesIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +609,7 @@
 		};
 		CE409AA62000431000CEE342 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 795E2C0B767CC5CD95C895F5 /* Pods-SvetCakesIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +625,7 @@
 		};
 		CE409AA72000431000CEE342 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC3C412438FB9415D7CF6E3 /* Pods-SvetCakesIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

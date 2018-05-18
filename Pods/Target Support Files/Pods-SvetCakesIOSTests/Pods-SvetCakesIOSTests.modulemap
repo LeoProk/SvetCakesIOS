@@ -1,0 +1,6 @@
+framework module Pods_SvetCakesIOSTests {
+  umbrella header "Pods-SvetCakesIOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
